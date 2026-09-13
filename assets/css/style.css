@@ -1,0 +1,21 @@
+.bg-primary-col{
+  background-color: #29235C;
+}
+.bg-secondary-col{
+  background-color: #F28C28;
+}
+.bg-col{
+  background-color: #FFF8EE;
+}
+.primary-col{
+  color: #29235C;
+}
+.secondary-col{
+  color: #F28C28;
+}
+.text-col{
+  color: #252525;
+}
+.accent-col{
+  color: #FFE0B2;
+}
