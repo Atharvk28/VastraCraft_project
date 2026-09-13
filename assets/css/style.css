@@ -1,21 +1,24 @@
 .bg-primary-col{
-  background-color: #29235C;
+  background-color: #4A1942;
 }
 .bg-secondary-col{
-  background-color: #F28C28;
+  background-color: #E9E2D6;
 }
 .bg-col{
   background-color: #FFF8EE;
 }
 .primary-col{
-  color: #29235C;
+  color: #123C3A;
 }
 .secondary-col{
-  color: #F28C28;
+  color: #D96C3F;
 }
 .text-col{
   color: #252525;
 }
 .accent-col{
-  color: #FFE0B2;
+  color: #D96C3F;
+}
+body{
+  background-color: #F8F5EF;
 }
