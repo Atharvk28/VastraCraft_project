@@ -1,0 +1,17 @@
+.home-hero-heading{
+  
+}
+.hero-tag-content{
+  width: 50vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-list{
+color: #D96C3F;
+  display: inline;
+  
+}
+.hero-list:not(:last-child)::after{
+  content: " | ";
+}
+
+

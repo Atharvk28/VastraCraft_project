@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <!-- main css file  -->
   <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- home css file  -->
+  <link rel="stylesheet" href="assets/css/home.css">
 </head>
 
 <body>
@@ -74,29 +76,31 @@
     </nav>
   </header>
   <!-- ===============================wear your idea. make it yours. =========================  -->
-  <section>
+  <section class="bg-secondary-col">
     <div class="container">
       <div class="row">
+        <h1 class="primary-col home-hero-heading p-2 ">Wear Your Idea. Make It Yours..</h1>
         <div class="col-md-12">
-          <div>
-
-            <h1>Wear Your Idea. Make It Yours..</h1>
-            <span>Custom apparel, embroidery, and personalized gifts designed for festivals, teams, events, and everyday
-              moments.</span>
+          <div class="home hero-tag-content">
+            <p class="text-color ">Custom apparel, embroidery, and personalized gifts designed for festivals, teams,
+              events, and everyday
+              moments.</p>
 
           </div>
           <div>
-            <button type="button" src="pages/t-shirts.html">Explore Collections</button>
-            <button type="button" src="pages/t-shirts.html">Create Your Custom Design</button>
+            <button type="button" class="btn m-1 " src="pages/t-shirts.html">Explore Collections <i
+                class="bi bi-arrow-right"></i></button>
+            <button type="button" class=" btn m-1 " src="pges/t-shirts.html">Create Your Custom Design <i
+                class="bi bi-arrow-right"></i></button>
 
-            <span>
-              <ul>
-                <li>T-Shirts </li>
-                <li> Embroidery </li>
-                <li> Scarves </li>
-                <li> Mugs</li>
+            <div class="m-1">
+              <ul class="">
+                <li class="hero-list">T-Shirts </li>
+                <li class="hero-list"> Embroidery </li>
+                <li class="hero-list"> Scarves </li>
+                <li class="hero-list"> Mugs</li>
               </ul>
-            </span>
+            </div>
 
           </div>
           <img src="" alt="">
@@ -107,14 +111,14 @@
   <!-- *************** main *************** -->
   <main>
     <!-- ============================ made for your moment ==============================  -->
-    <section>
+    <section class="bg-col">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div>
-              <h1>Made for Your Moment</h1>
+              <h2 class="primary-col sub-heading">Made for Your Moment</h2>
             </div>
-            <div>
+            <div class="sub-heading-text">
               <p>At VastraCraft, we turn your ideas into something you can wear, share, and remember. From festive
                 designs and team apparel to personalized embroidery and custom mugs, we create products that are made
                 around your style and occasion.</p>
@@ -126,51 +130,54 @@
       </div>
     </section>
     <!-- ============================ create it your way ======================  -->
-    <section>
+    <section class="mb-3">
       <div class="container">
         <div class="row">
           <div>
-            <h1>
+            <h2 class="sub-heading">
               Create It Your Way
-            </h1>
+            </h2>
           </div>
           <div class="col-md-3">
-
-            <div>
-
-              <!-- ----------- card 1 ----------   -->
-              <h3>Custom Apparel</h3>
-              <p>Personalized T-shirts designed around your ideas, artwork, names or messages. </p>
-
+            <!-- ----------- card 1 ----------   -->
+            <div class="card" style=" width:16rem;">
+              <div class="card-body">
+                <h3 class="card-title">Custom Apparel</h3>
+                <p class="card-text">Personalized T-shirts designed around your ideas, artwork, names or messages.</p>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
+            <div class="card" style=" width:16rem;">
+              <div class="card-body">
+                <!-- ----------- card 2 ----------   -->
+                <h3 class="card-title">Emberiodery</h3>
+                <p class="card-text">Add a premium touch with custom embroidery on shirts, scarves, and other apparel.
+                </p>
 
-            <div>
-              <!-- ----------- card 2 ----------   -->
-              <h3>Emberiodery</h3>
-              <p>Add a premium touch with custom embroidery on shirts, scarves, and other apparel.</p>
-
+              </div>
             </div>
           </div>
           <div class="col-md-3">
-
-            <div>
-              <!-- ----------- card 3 ----------   -->
-              <h3>Team Wear</h3>
-              <p>Matching apparel for kabaddi teams, sprots groups, college teams, clubs, and events.</p>
-
-
+            <!-- ----------- card 3 ----------   -->
+            <div class="card" style=" width:16rem;">
+              <div class="card-body">
+                <h3 class="card-title">Team Wear</h3>
+                <p class="card-text">Matching apparel for kabaddi teams, sprots groups, college teams, clubs, and
+                  events.</p>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
+            <!-- ----------- card 4 ----------   -->
 
-            <div>
-              <!-- ----------- card 4 ----------   -->
-              <h3>Custom Mugs</h3>
-              <p>Turn your photos, names, artwork, or messages into personalized mugs.</p>
+            <div class="card" style=" width:16rem;">
+              <div class="card-body">
+                <h3 class="card-title">Custom Mugs</h3>
+                <p class="card-text">Turn your photos, names, artwork, or messages into personalized mugs.</p>
 
 
+              </div>
             </div>
           </div>
 
@@ -182,7 +189,7 @@
       <div class="container">
         <div class="row">
           <div>
-            <h2>Explore Our Collections</h2>
+            <h2 class="sub-heading">Explore Our Collections</h2>
           </div>
           <div class="col-md-4">
             <!-- ------------------- card 1 Festival Collection --------------------  -->
@@ -207,24 +214,26 @@
       </div>
     </section>
     <!-- ============================== Celebrate It. Wear It. =========================  -->
-    <section>
+    <section class="mb-3">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <!-- --------------------- Celebrate It. Wear It. -----------------------  -->
-            <h2>Celebrate It. Wear It.</h2>
-            <p>Bring your celebrations to life with apparel inspired by the festivals you love. Choose from our designs
+            <h2 class="sub-heading">Celebrate It. Wear It.</h2>
+            <p class="sub-heading-text">Bring your celebrations to life with apparel inspired by the festivals you love.
+              Choose from our designs
               or create somthing completely your own.</p>
-            <button>
-              <a href="festival_collection.html"> Explore Festival Collection </a>
+            <button class="btn" type="button">
+              <a class="" href="festival_collection.html"> Explore Festival Collection </a>
             </button>
           </div>
           <div class="col-md-6">
             <!-- ------------------------- One Team, One Identity. ----------------------  -->
-            <h2>One Team. One Identity.</h2>
-            <p>Give your team a look that feels united. Customize T-shirts, jerseys, scarves, and other apparel with
+            <h2 class="sub-heading">One Team. One Identity.</h2>
+            <p class="sub-heading-text">Give your team a look that feels united. Customize T-shirts, jerseys, scarves,
+              and other apparel with
               team names, logos, numbers, and colors.</p>
-            <button>
+            <button class="btn" type="button">
               <a href="team_collection.html">Explore Team Collection</a>
             </button>
           </div>
@@ -232,33 +241,58 @@
       </div>
     </section>
     <!-- ================================== From Idea To Creation ================================  -->
-    <section>
+    <section class="mb-3">
       <div class="container">
         <div class="row">
-          <h2>From Idea to Creations</h2>
+          <h2 class="sub-heading">From Idea to Creations</h2>
           <div class="col-md-3">
             <!-- ------------------------ Share Your Idea ------------------------  -->
-            <i class="bi bi-arrow-right"></i>
-            <h3>share Your Idea</h3>
-            <p>Tell us what you want or share your design.</p>
+            <div class="card" style="width: 16rem;">
+                <i class="bi bi-arrow-right arrow-hw"></i>
+
+              <div class="card-body">
+                <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/idea--v1.png" alt="idea--v1"/>
+                <h3 class="card-title">share Your Idea</h3>
+                <p class="card-text">Tell us what you want or share your design.</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-3">
             <!-- ---------------------------- Customize ---------------------------- -->
-            <img width="24" height="24" src="https://img.icons8.com/forma-regular-sharp/24/pencil.png" alt="pencil" />
-            <h3>Customize</h3>
-            <p>Choose your apparel, design, wmbroidery, colors, text, or personalozation.</p>
+            <div class="card" style="width: 16rem;">
+                <i class="bi bi-arrow-right arrow-hw"></i>
+
+              <div class="card-body">
+                <img width="30" height="30" src="https://img.icons8.com/forma-regular-sharp/24/pencil.png"
+                  alt="pencil" />
+                <h3 class="card-title">Customize</h3>
+                <p class="card-text">Choose your apparel, design, wmbroidery, colors, text, or personalozation.</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-3">
             <!-- ------------------------- We Create ---------------------------  -->
-            <i class="bi bi-gear"></i>
-            <h3>We Create</h3>
-            <p>Your design is prepared and crafted according to your requirements.</p>
+            <div class="card" style="width: 16rem;">
+                <i class="bi bi-arrow-right arrow-hw"></i>
+
+              <div class="card-body">
+                <i class="bi bi-gear"></i>
+                <h3 class="card-title">We Create</h3>
+                <p class="card-text">Your design is prepared and crafted according to your requirements.</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-3">
             <!-- ----------------------------- Wear And Share ------------------------------  -->
-            <img width="128" height="128" src="https://img.icons8.com/cotton/128/box--v1.png" alt="box--v1" />
-            <h3>Wear & Share</h3>
-            <p>GEt your finished product and make it yours.</p>
+            <div class="card" style="width: 16rem;">
+                <i class="bi bi-arrow-right arrow-hw"></i>
+
+              <div class="card-body">
+                <img width="128" height="128" src="https://img.icons8.com/cotton/128/box--v1.png" alt="box--v1" />
+                <h3 class="card-title">Wear & Share</h3>
+                <p class="card-text">GEt your finished product and make it yours.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -268,7 +302,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3>Have Something Different in Mind?</h3>
+            <h2 class="sub-heading">Have Something Different in Mind?</h2>
             <p>Don't see exactly looking for? Tell us your idea. Whether it's a custom design, team requirement,
               festival concept, or personalized gift, we'll help you turn it into finished product.</p>
             <button>
@@ -282,7 +316,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <h2>Why Choose VastraCraft?</h2>
+          <h2 class="sub-heading">Why Choose VastraCraft?</h2>
           <div class="col-md-3">
             <img width="32" height="32" src="https://img.icons8.com/windows/32/paint.png" alt="paint" />
             <h3>Made to Your Idea</h3>
@@ -314,7 +348,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md_12">
-            <h2>Your Idea. Your Style. Your VastraCraft.</h2>
+            <h2 class="sub-heading">Your Idea. Your Style. Your VastraCraft.</h2>
             <p>Start creating something that feels uniquely yours.</p>
             <button>
               <a href="">Explore Collectons </a>
@@ -345,9 +379,9 @@
           </div>
           <div class="col-md-4">
             <!-- --------------------------- social media -------------------------  -->
-             <i class="bi bi-instagram"></i>
-             <i class="bi bi-facebook"></i>
-             <i class="bi bi-youtube"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
           </div>
         </div>
       </div>
