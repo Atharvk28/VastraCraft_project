@@ -13,5 +13,8 @@ color: #D96C3F;
 .hero-list:not(:last-child)::after{
   content: " | ";
 }
-
+.explore-collection-btn{
+  display: flex;
+  justify-content: center;
+}
 
