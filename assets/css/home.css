@@ -47,14 +47,17 @@ color: #D96C3F;
 }
 .idea-style-vastracraft{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap; 
   justify-content: center;
+  align-items: center;
+
 }
 .idea-style-vastracraft p{
-  display:flex;
+  /* display:flex;
   position: relative;
   top: auto;
-  justify-content: center;
+  justify-content: center; */
   
 }
 
