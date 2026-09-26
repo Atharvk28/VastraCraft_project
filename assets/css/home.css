@@ -1,6 +1,10 @@
 .home-hero-heading{
   
 }
+.hero-section-bg{
+  height: 50vh;
+  background: url(/assets/images/home_hero_img.png) center / cover no-repeat ;
+}
 .hero-tag-content{
   width: 50vh;
   font-family: Arial, Helvetica, sans-serif;
@@ -16,5 +20,41 @@ color: #D96C3F;
 .explore-collection-btn{
   display: flex;
   justify-content: center;
+}
+.celebrate-it-para{
+  width: 28vw;
+}
+.bg-col-for-celebrate{
+  background-color: #feefdc;
+}
+.bg-col-for-oneTeam{
+  background-color: #e0eef8;
+}
+.card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vw;
+  font-weight: 550;
+}
+.icon-size{
+  font-size: 4.2vh;
+}
+.position-of-card-icon{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 2.5vh;
+  margin: 10px;
+}
+.idea-style-vastracraft{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.idea-style-vastracraft p{
+  display:flex;
+  position: relative;
+  top: auto;
+  justify-content: center;
+  
 }
 
