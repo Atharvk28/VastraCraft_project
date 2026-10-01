@@ -1,23 +1,26 @@
-.bg-primary-col{
-  background-color: #4A1942;
+ .bg-primary-col{
+  background-color: #0d3331;
+  color: #fff;
 }
 .bg-secondary-col{
   background-color: #E9E2D6;
-}
+} 
 .primary-col{
-  color: #123C3A;
+  color: #0d3331;
 }
 .secondary-col{
   color: #D96C3F;
 }
 .text-col{
-  color: #252525;
+  /* color: #252525; */
 }
 .accent-col{
   color: #D96C3F;
 }
 body{
   background-color: #F8F5EF;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252525;
 }
 .p-m{
   padding: 10px;
@@ -32,6 +35,19 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   color: #252525;
   
+}
+/* =================== logo ==================== */
+.logo-heading{
+  display: flex;
+  word-spacing: 3px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tagline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
 }
 
 /* ================== btn ===============  */
@@ -64,12 +80,31 @@ body{
   list-style: none;
   text-decoration: none;
   display: inline-flex;
-  word-spacing: 1vw;
+  padding: 5px;
+  /* word-spacing: 1vw; */
+  /* gap: 10px; */
 }
+
 .footer-icon{
   display: inline-flex;
   list-style-type: none;
   text-decoration: none;
   margin: 5px;
   font-size: 1.4vw;
+}
+.footer-tagline{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end ;
+}
+.quick-link-heading{
+  display: flex;
+  justify-content: center;
+}
+.footer-quicklinks{
+  display: flex;
+  list-style-type: none;
+  
 }
