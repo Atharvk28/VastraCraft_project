@@ -49,6 +49,20 @@ body{
   align-items: center;
   line-height: 2px;
 }
+/* ================== nav ==================  */
+.navbar-collapse{
+margin-left: 4vh;
+}
+.nav-item{
+  padding-right: 1vw;
+}
+
+.nav-cart{
+  position: absolute;
+  right: 7rem;
+  font-size: 2.5vh;
+}
+
 
 /* ================== btn ===============  */
 .btn{
