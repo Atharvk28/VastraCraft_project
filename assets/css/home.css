@@ -84,10 +84,17 @@ color: #D96C3F;
     width: 100%;
     height: 220px;
     object-fit: cover;
-    object-position: ;
     border-radius: 12px;
 }
-
+/* ====================== create it your way ===================   */
+.create-it-your-way{
+  padding: auto;
+  margin: 0;
+  background-color: #eeece7;
+}
+.createyourway-card > .card{
+  border: none;
+}
 
 
 
